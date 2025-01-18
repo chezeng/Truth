@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useState } from 'react';
@@ -62,7 +63,7 @@ export default function Register() {
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email address
               </label>
-              <div className="mt-1">
+              <div className="mt-1 text-black">
                 <input
                   id="email"
                   name="email"
@@ -79,7 +80,7 @@ export default function Register() {
               <label htmlFor="password" className="block text-sm font-medium text-gray-700">
                 Password
               </label>
-              <div className="mt-1">
+              <div className="mt-1 text-black">
                 <input
                   id="password"
                   name="password"
@@ -96,7 +97,7 @@ export default function Register() {
               <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">
                 Confirm Password
               </label>
-              <div className="mt-1">
+              <div className="mt-1 text-black">
                 <input
                   id="confirmPassword"
                   name="confirmPassword"
